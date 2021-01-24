@@ -1,0 +1,111 @@
+body {
+  background: linear-gradient(125deg, #cb6d38, #c5443c);
+  width: 100%;
+  height: 100vh;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 1px;
+}
+
+.container {
+  height: 400px;
+  filter: drop-shadow(5px 2px 10px #000000);
+}
+
+#hero-text {
+  padding-top: 120px;
+}
+
+#hero-side {
+  background-image: url(Weather_Hero.jpg);
+  background-size: 281px 400px;
+  width: 281px;
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 400px;
+  text-align: center;
+  float: left;
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-size: 180%;
+}
+
+#info-side {
+  background-color: #2b3746;
+  width: 400px;
+  height: 85%;
+  align-content: center;
+  padding-top: 60px;
+  padding-left: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+  color: #ffffff;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#subheader {
+  font-style: italic;
+  font-size: 85%;
+  margin-top: 30px;
+  line-height: 30%;
+}
+
+input {
+  margin: 5px;
+  margin-left: 0px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #d2524f;
+}
+
+::placeholder {
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+span {
+  color: #d2524f;
+}
+
+button {
+  background-color: #d2524f;
+  border: 1.5px solid #456da6;
+  border-radius: 5%;
+  color: #ffffff;
+  padding: 4px 12px;
+  margin: 10px;
+  font-size: 65%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+  border: .2px solid #ffffff;
+  width: 55%;
+  margin-right: 55%;
+  opacity: 0.1;
+}
+
+@media only screen and (max-width: 760px) {
+  #info-side {
+    width: 221px;
+    float: left;
+    padding-top: 30px;
+    padding-right: 20px;
+    height: 92.5%;
+  }
+}
+
+@media only screen and (max-width: 591px) {
+  #info-side {
+    width: 221px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 0;
+    padding-right: 30px;
+  }
+}
