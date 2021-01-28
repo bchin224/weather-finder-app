@@ -10,7 +10,7 @@ function App() {
         <Hero/>
         <Info/>
     </div>
-  );
+  )
 }
 
 export default App
